@@ -1,0 +1,72 @@
+        body {
+            background-color: #FAF8F1;
+        }
+        hr {
+            border-style: dotted none none;
+            border-color: #E5BA73;
+            border-width: 5px;
+            width: 5%;
+        }
+        #fotoperfil {
+            height: 170px;
+        }
+        .fotos-hobbies {
+            background-color: aqua;
+            height: 280px;
+        }
+        .pagelinks:hover {
+            background-color: #E5BA73;
+            font-size: larger;
+        }
+        h1 {
+            color: #C58940;
+            font-family: Solitreo, sans-serif;
+            font-size: 30px;
+        }
+        h2 {
+            color: #C58940;
+            font-family: Solitreo, sans-serif;
+        }
+        h3 {
+            color: #C58940;
+            font-family: Solitreo, sans-serif;
+        }
+        p {
+            font-family: Comfortaa;
+            font-size: smaller;
+        }
+        table {
+            font-family: Comfortaa;
+            border: 2px solid darkblue;
+            background-color: antiquewhite;
+            border-collapse: collapse;
+        }
+        th {
+            border-bottom: 1px solid darkblue;
+            padding: 15px;
+            background-color: #dfb674;
+        }
+        td {
+            border: 1px solid darkblue;
+            text-align: center;
+            padding: 10px
+        }
+        ul {
+            font-family: Comfortaa;
+        }
+        .profiletable {
+            border: none;
+            background-color: #FAF8F1;
+            text-align: left;
+        }
+        .profiletd {
+            border: none;
+            text-align: left;
+            padding-left: 10px;
+        }
+        .hobbiestd {
+            border: none;
+        }
+        .experienciatr:hover {
+            background-color: #E5BA73;
+        }
