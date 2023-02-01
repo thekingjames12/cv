@@ -1,18 +1,16 @@
+        /*GENERAL*/
         body {
             background-color: #FAF8F1;
+            margin: 0px;
+        }
+        div {
+            margin: 8px;
         }
         hr {
             border-style: dotted none none;
             border-color: #E5BA73;
             border-width: 5px;
             width: 5%;
-        }
-        #fotoperfil {
-            height: 170px;
-        }
-        .fotos-hobbies {
-            background-color: aqua;
-            height: 280px;
         }
         .pagelinks:hover {
             background-color: #E5BA73;
@@ -54,6 +52,56 @@
         ul {
             font-family: Comfortaa;
         }
+        /*TOP MENU*/
+        .top-menu {
+            background-color: lightseagreen;
+            margin: 0px;
+        }
+        .top-table {
+            background-color: lightseagreen;
+            border: none;
+            width: 100%;
+        }
+        .top-td {
+            border: none;
+        }
+        .top-links:link, .top-links:visited {
+            text-decoration: none;
+            background-color: #FAF8F1;
+            color: lightseagreen;
+            padding: 14px 25px;
+            text-align: center;
+            display: inline-block;
+        }
+        /*BOTTOM MENU*/
+        .bottom-menu {
+            background-color: lightseagreen;
+            margin-top: 20px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+            margin-right: 0px;
+        }
+        .bottom-table {
+            background-color: lightseagreen;
+            border: none;
+            width: 100%;
+        }
+        .bottom-td {
+            border: none;
+        }
+        .pagelinks-bottom {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+        /*SPECIFIC CONTENT*/
+        #fotoperfil {
+            height: 170px;
+        }
+        .fotos-hobbies {
+            background-color: aqua;
+            height: 280px;
+            width: fit-content;
+        }
         .profiletable {
             border: none;
             background-color: #FAF8F1;
@@ -69,4 +117,10 @@
         }
         .experienciatr:hover {
             background-color: #E5BA73;
+        }
+        .hobbiestable {
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            table-layout: fixed;
         }
